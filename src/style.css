@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'digital';
+  src: url('../font/digital_counter_7.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'hack';
+  src: url('../font/Hack\ Regular\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf');
+}
+
+body
+{
+  background-color: #151515;
+}
+
+img
+{
+  box-shadow: 0px 0px 10px 3px #E1E1E1;
+}
+
+.nav
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.c_light
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.light
+{
+  width: 450px;
+  height: 450px;
+  background-color: #303030;
+  box-shadow: 0px 0px 20px 5px #252525;
+}
+
+.left
+{
+  margin-left: 10%;
+}
+
+.right
+{
+  margin-right: 10%;
+}
+
+.center
+{
+  margin-right: 23%;
+  margin-left: 23%;
+}
+
+.timer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 240px;
+  margin: auto;
+  margin-top: 2%;
+  background-color: #2E2E2E;
+  color: #a64772;
+  font-family: 'digital', sans-serif;
+  font-size: 200px;
+  text-align: center;
+  box-shadow: 0px 0px 15px 3px #B34C84;
+  animation: colorShadow 5s linear infinite;
+}
+
+@keyframes colorShadow {
+  0% {
+    box-shadow: 0px 0px 15px 3px #F1DAE7;
+  }
+  10% {
+    box-shadow: 0px 0px 15px 3px #E2B6CE;
+  }
+  25% {
+    box-shadow: 0px 0px 15px 3px #D392B6;
+  }
+  40% {
+    box-shadow: 0px 0px 15px 3px #C36F9D;
+  }
+  50% {
+    box-shadow: 0px 0px 15px 3px #B34C84;
+  }
+  60% {
+    box-shadow: 0px 0px 15px 3px #C36F9D;
+  }
+  75% {
+    box-shadow: 0px 0px 15px 3px #D392B6;
+  }
+  90% {
+    box-shadow: 0px 0px 15px 3px #E2B6CE;
+  }
+  100% {
+    box-shadow: 0px 0px 15px 3px #F1DAE7;
+  }
+}
+
+#ms
+{
+  font-size: 100px;
+}
+
+.actions
+{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1.4%; 
+}
+
+button
+{
+  font-family: 'hack';
+  margin: 0% 2% 0% 2%;
+  font-size: xx-large;
+  background-color: #d1d1d1;
+  border: none;
+  border-radius: 5%;
+  padding: 10px 30px;
+}
+
+.table
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'hack';
+  font-size: xx-large;
+  text-align: center;
+  margin: 3% 0% 3% 0%;
+  color: #9BD5CF;
+}
+
+table
+{
+  background-color: #0F1924;
+  margin: 0% 2.5% 0% 2.5%;
+  box-shadow: 0px 0px 20px 5px #386294;
+}
+
+table th,td
+{
+  width: 220px;
+  height: 50px;
+  padding: 15px 40px;
+}
+
+tbody
+{
+  background: #1D3149;
+}
